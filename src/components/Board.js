@@ -7,9 +7,16 @@ export default function Board() {
 
 
   return (
-    <div>
-      {console.log({board})}
-      <Tile char = {board[4]} />
+    <div className="board">
+     <Tile char = {board[0]}/>
+     <Tile char = {board[1]}/>
+     <Tile char = {board[2]}/>
+     <Tile char = {board[3]}/>
+     <Tile char = {board[4]}/>
+     <Tile char = {board[5]}/>
+     <Tile char = {board[6]}/>
+     <Tile char = {board[7]}/>
+     <Tile char = {board[8]}/>
     </div>
   )
 }
